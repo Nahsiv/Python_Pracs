@@ -1,0 +1,10 @@
+import cv2
+
+img = cv2.imread('first.png')
+gimg = cv2.imread('first.png', cv2.IMREAD_GRAYSCALE)
+
+cv2.imshow('Phone',img)
+cv2.imshow('GPhone',gimg)
+
+cv2.waitKey(10000)
+cv2.destroyAllWindows()
